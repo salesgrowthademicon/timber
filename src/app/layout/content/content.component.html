@@ -1,0 +1,89 @@
+<div class="main-content">
+  <div class="content">
+    <div class="image">
+      <div class="content-banner">
+        <div class="left">
+          <h1>A melhor solução para as suas operações.</h1>
+          <p class="topics">
+            <img src="../../../assets/ICONE_ARVORES_.svg" />
+            Sem entrada
+          </p>
+          <p class="topics">
+            <img src="../../../assets/ICONE_ARVORES_.svg" />
+            Sem juros
+          </p>
+          <p class="topics">
+            <img src="../../../assets/ICONE_ARVORES_.svg" />
+            Investimento seguro
+          </p>
+          <p class="topics">
+            <img src="../../../assets/ICONE_ARVORES_.svg" />
+            Parcelas reduzidas
+          </p>
+        </div>
+        <div class="right">
+          <div class="content-form">
+            <h1>Dê a partida em seus objetivos</h1>
+            <div class="form">
+              <p>Qual é a sua próxima conquista?</p>
+              <input />
+              <p>Simule o plano por:</p>
+              <div class="content-select">
+                <div
+                  class="select"
+                  (click)="changeBackground('parcela')"
+                  [class.selected]="selectedOption === 'parcela'"
+                >
+                  parcela
+                </div>
+                <div
+                  class="select"
+                  (click)="changeBackground('credito')"
+                  [class.selected]="selectedOption === 'credito'"
+                >
+                  crédito
+                </div>
+              </div>
+              <p>Qual é a sua próxima conquista?</p>
+              <div class="slider">
+                <!-- <app-slider></app-slider> -->
+              </div>
+              <div class="button">
+                <button>Simular agora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="content-footer">
+      <div class="footer">
+        <div class="descript">
+          <img src="../../../assets/LISTRAS.svg" />
+          <p>
+            Para <span>encurtar o caminho</span> entre
+            <span>empreemdedores e seus objetivos</span>, criamos o
+            <span>Consórcio Timber</span>, que chega para
+            <span>facilitar o acesso</span> da sua empresa à
+            <span>máquina ou ao implemento</span> que você deseja, com
+            <span>parcelas</span> que cabem no seu orçamento, atendimento
+            especializado e as
+            <span>melhores condições!</span>
+          </p>
+        </div>
+        <div class="ademicon">
+          <p>Administrado por:</p>
+          <img src="../../../assets/Ademicon.svg" />
+        </div>
+      </div>
+      <div class="administrator">
+        <div></div>
+        <p>
+          Administrado por Ademicon S/A, portadora do certificado de autorização
+          do Banco Central, nº 92060028. Ouvidoria: 0800 602 9080
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
